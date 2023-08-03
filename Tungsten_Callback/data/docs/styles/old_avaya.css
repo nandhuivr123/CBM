@@ -1,0 +1,228 @@
+/* Basic font sizes */
+.x_small_font {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px
+}
+.small_font {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px
+; font-style: normal; font-weight: normal; color: #000000
+}
+.medium_font {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px
+}
+.large_font {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px
+}
+.x_large_font {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px
+}
+.xx_large_font {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px
+}
+.page_font {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px
+}
+.serverinfo {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #D6CE49;
+}
+
+/* end basic font sizes */
+
+
+/* Body properties */
+body.no_space {
+        margin: 0
+}
+/* end body */
+
+
+/* Classes for title frame */
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold
+}
+/* end title */
+
+
+/* Classes for tables */
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+}
+table.head {
+	background: url("../images/bluegradient.gif"); width: 800px
+}
+table.no_space {
+        border: 0; padding: 0;
+}
+/* Replaced by the new style of header being recommended by Look and Feel
+th {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000066; font-weight: bold; text-decoration: underline
+} */
+th {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; font-weight: bold; text-decoration: none; background: #666666; 
+}
+tr.alt {
+        background: #EEEEEE
+}
+/* end tables */
+
+
+/* Classes for Paragraph */
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px
+}
+/* end paragraph */
+
+
+/* Classes for page heading */
+.heading1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 17px; font-weight: bold; color: #FFFFFF; font-style: italic
+}
+.heading2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #333333; font-weight: bold
+}
+/* end page heading */
+
+
+/* Classes for menus */
+.menu_category {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #D6CE49; font-style: normal; font-weight: bold; line-height: 12px
+; font-variant: normal
+}
+/* end menus */
+
+
+/* Classes for Progress bars */
+.cfg_head {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #000000
+}
+td.cfg_category_chsn {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-style: normal; font-weight: bold; line-height: 13px; background-color: #336699
+}
+td.cfg_nolink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; font-weight: bold
+}
+/* end progress bars */
+
+
+/* Classes for Links */
+a.menulink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000; text-decoration: none; height: 12px;
+}
+a.menulink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000; text-decoration: underline; height: 12px;
+}
+a.menulink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color:#000000; text-decoration: underline; height: 12px;
+}
+a.helplink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold ; text-decoration: underline
+}
+a.file {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal
+}
+a.file:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal
+}
+a.file:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal
+}
+.menu_nolink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #DDDDDD; font-weight: normal
+}
+/* end links */
+
+
+/* Classes for forms */
+.forms { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000
+}
+input.button {
+	font-family: Verdana; font-size: 12px; font-weight: bold; background-color: 333333; height: 23px; color: #FFFFFF
+}
+/* End forms */
+
+
+/* Classes for login pages */
+.whitetxt_lrg {
+	font-family: verdana; color:#FFFFFF; font-weight: bold; font-size: 20px
+}
+.whitetxt_small {
+	font-family: verdana; color:#FFFFFF; font-weight: bold; font-size: 11px
+}
+td.small_spacer {
+        height: 13px
+; background-color: #335687
+}
+td.big_spacer {
+        height: 22px;
+        valign: middle;
+; /* background-color: #335687 */
+}
+td.logon_box_bg {
+	background: #4799B6
+}
+table.logon_border {
+	background: #335687; padding: 0 0; clip:  rect(   )
+}
+/* end login pages */
+
+
+/* Classes for Unified login page */
+.homepageheading {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #335687; font-weight: bold
+}
+a.homepagelink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000066; font-weight: bold; text-decoration: underline
+}
+a.homepagelink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #336699; text-decoration: underline; font-weight: bold
+}
+a.homepagelink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0099FF; text-decoration: underline; font-weight: bold
+}
+.heading_selected {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF; font-weight: bold
+}
+.heading_other {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #D6CE49; font-weight: bold
+}
+.heading_separator {
+        font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; font-weight: bold
+}
+td.upp_border {
+	border-top: 2px; border-left: 0; border-right: 0; border-bottom: 0; border-color: #CCCCCC; border-style: solid
+}	
+/* end unified login */
+
+
+/* Miscellaneous */
+.warn_font {
+        font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; color: #CC0000; font-weight: bold
+}
+.heading1plain { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 17px; font-weight: bold; color: #333333; font-style: normal; valign:middle; background-color: #FFFFFF;
+}
+.small_font_green { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px ; font-style: normal; font-weight: bold; color: #009900
+}
+.small_font_red { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px ; font-style: normal; font-weight: bold; color: #CC0000
+}
+.heading1sub { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: ##333333; font-style: normal }
+a.rolloverhelp { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #335687; font-weight: bold
+}
+a.rolloverhelp:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #4799B6; font-weight: bold ; text-decoration: underline
+}
+.vmstitle {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-weight: bolder; color: #333333; /* background-color: #FFFFFF */
+}
+.apptitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: bold; color: #666666; /* background-color: #FFFFFF */
+}
+.menu_category-gold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #D6CE49; font-style: normal; font-weight: bold; line-height: 14px
+}
+a.helpandexit { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; text-decoration: none
+}
+a.helpandexit:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; text-decoration: underline
+}
+a.helpandexit:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; text-decoration: underline
+}
+
+/* end Miscellaneous */

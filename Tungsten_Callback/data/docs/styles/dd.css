@@ -1,0 +1,299 @@
+.left {
+	align: left;
+}
+.right {
+	align: right;
+}
+
+a.groupmenulink {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-style: normal; font-weight: bold; text-decoration: none
+}
+a.groupmenulink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: underline; font-weight: bold
+}
+a.groupmenulink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold; text-decoration: none;
+}
+
+a.rollovermenu { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; text-decoration: none;
+}
+a.rollovermenu:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000; text-decoration: underline
+}
+
+.heading2plain
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #333333;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topalign 
+{ 
+	vertical-align: top; 
+}
+
+.leftcolumn
+{
+    text-align: left;
+}
+.rightcolumn
+{
+    text-align: right;
+}
+.centercolumn
+{
+    text-align: center;
+}
+.titlecolumn
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; font-weight: bold; text-decoration: none; background: #666666;
+}
+.
+.oddrow
+{
+	background: #FFFFFF
+}
+.evenrow
+{
+	background: #EEEEEE
+}
+
+.columnspacer_5
+{
+	width: 5px;
+}
+
+.columnspacer_10
+{
+	width: 10px;
+}
+
+.columnspacer_15
+{
+	width: 15px;
+}
+
+.columnspacer_20
+{
+	width: 20px;
+}
+
+.columnspacer_80
+{
+	width: 80px;
+}
+
+.columnspacer_125
+{
+	width: 125px;
+}
+
+.columnspacer_150
+{
+	width: 150px;
+}
+
+.columnspacer_160
+{
+	width: 160px;
+}
+
+.columnspacer_175
+{
+	width: 175px;
+}
+
+.columnspacer_200
+{
+	width: 200px;
+}
+
+.columnspacer_220
+{
+	width: 220px;
+}
+
+.columnspacer_222
+{
+	width: 222px;
+}
+
+.columnspacer_225
+{
+	width: 225px;
+}
+
+.columnspacer_250
+{
+	width: 250px;
+}
+
+.columnspacer_300
+{
+	width: 300px;
+}
+
+.width_20_percent
+{
+	width: 25%;
+}
+
+.width_25_percent
+{
+	width: 25%;
+}
+
+.width_33_percent
+{
+	width: 33%;
+}
+
+.width_50_percent
+{
+	width: 50%;
+}
+
+.width_66_percent
+{
+	width: 66%;
+}
+
+.width_75_percent
+{
+	width: 75%;
+}
+
+.rowspacer_5
+{
+	height: 5px;
+}
+
+.rowspacer_10
+{
+	height: 10px;
+}
+
+.rowspacer_15
+{
+	height: 15px;
+}
+
+.rowspacer_20
+{
+	height: 20px;
+}
+
+.progressBar
+{
+	visibility:hidden;
+	border-right: activeborder thin outset;
+	border-top: activeborder thin outset;
+	font-size: x-small;
+	z-index: 1003;
+	left: 30%;
+	border-left: activeborder thin outset;
+	border-bottom: activeborder thin outset;
+	font-family: Verdana, Arial;
+	position: absolute;
+	bottom: 57%;
+	border-collapse: collapse;
+	background-color: #666666;	
+	font-weight:bold;
+	color:white;
+	width: 350px;
+	height: 50px;
+	text-align: center;
+}
+
+.fatal {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+	font-style: normal; font-weight: normal; color: #FF0000
+}
+
+.errors {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+	font-style: normal; font-weight: normal; color: #FF1F1F
+}
+
+.warn {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+	font-style: normal; font-weight: normal; color: #FF7F00
+}
+
+.info {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+	font-style: normal; font-weight: normal; color: #0000FF
+}
+
+input.disabledbutton {
+    font-family: Verdana; 
+    font-size: 12px; 
+    font-weight: bold; 
+    background-color: 999999; 
+    height: 23px; 
+    color: #CCCCCC;
+}
+
+.whitetxt_small_nowrap {
+	font-family: verdana; color:#FFFFFF; font-weight: bold; font-size: 11px; white-space: nowrap;
+}
+
+.whitetxt_small_nowrap_norm {
+	font-family: verdana; color:#FFFFFF; font-weight: normal; font-size: 11px; white-space: nowrap;
+}
+
+.just_bold {
+	font-weight: bold; 
+}
+	
+.headerBackground {
+	background-image: url(../images/common/brushedmetal.gif);
+}
+
+.ddTopMenuBackground {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*position: relative;*/
+	background: url(../images/common/red_metal_strip.jpg) ;
+	height: 20px;
+}
+
+
+.topMenuBackground {
+	background-image: url(../images/common/red_metal_strip.jpg);
+}
+
+.leftMenuBackground {
+	background-image: url(../images/common/brushedmetal.gif);
+}
+INPUT.editTable {
+	border:solid;
+	border-color:gold;
+	width:100%;
+}
+
+td.checkbox {
+	text-align:left;
+}
+td.failover {
+	text-align:right;
+	font-style:italic;
+}
+td.tserver {
+	text-align:left;
+}
+
+th.checkall {
+	width:1%;
+}
+
+table.failoverservertable {
+	width:100%;
+	border-width:0px;
+}
+table.alltable {
+	width:100%;
+	border: medium solid;
+	border-width:2px;
+}

@@ -1,0 +1,77 @@
+2023-07-31T21:46:33.065+0530 INFO build session factory
+2023-07-31T21:46:34.709+0530 INFO >>>>>Hibernate Connection pooling<<<<<<<<<<<
+2023-07-31T21:46:34.711+0530 INFO .......Adding the customer.......
+
+2023-07-31T21:46:35.131+0530 INFO inserted customer: Vinoth
+2023-07-31T21:46:35.132+0530 INFO customer details: Customer [id=36, customer_name=Vinoth, customer_phone=757575, customer_email=vinoth@gmail.com]
+2023-07-31T21:46:35.140+0530 INFO Customer is entered and details updated..
+2023-07-31T21:46:35.140+0530 INFO .......Updating the New number in Customer table.......
+
+2023-07-31T21:46:35.142+0530 INFO Status updated in table:999999
+2023-07-31T21:46:35.335+0530 INFO This customer phone number is:999999
+2023-07-31T21:46:35.336+0530 INFO Customer phone number from DB is:82242
+2023-07-31T21:46:35.336+0530 INFO Customer phone number from DB is:975093
+2023-07-31T21:46:35.336+0530 INFO Customer phone number from DB is:121212
+2023-07-31T21:46:35.336+0530 INFO Customer phone number from DB is:757575
+2023-07-31T21:46:35.337+0530 INFO Customer phone number from DB is:8675858583
+2023-07-31T21:46:35.337+0530 INFO Customer phone number from DB is:999999
+2023-07-31T21:46:35.337+0530 INFO Customer phone number status for call back request is:completed
+2023-07-31T21:46:35.346+0530 INFO .......Adding the agents.......
+
+2023-07-31T21:46:35.348+0530 INFO inserted agent name: Nirmala
+2023-07-31T21:46:35.348+0530 INFO Agent details: Agent [agent_id=6, agent_name=Nirmala, agent_phone=******, agent_email=nirmala@gmail.com]
+2023-07-31T21:46:35.350+0530 INFO .......Updating the agent details in CallBackRequest table.......
+
+2023-07-31T21:46:35.350+0530 INFO Agent id :6Callback request ID:7
+2023-07-31T21:46:35.352+0530 INFO after the conversation with customer agent updating the status..
+2023-07-31T21:46:35.352+0530 INFO ......Updating the status in CallBackRequest table by Agent.......
+
+2023-07-31T21:46:35.353+0530 INFO Status updated in table:completed
+2023-07-31T21:46:35.355+0530 INFO .......Updating the Log table.......
+
+2023-07-31T21:46:35.357+0530 INFO Logs are added.. log id is:6
+2023-07-31T21:46:35.365+0530 INFO \n.......Records Saved Successfully To The Database.......
+2023-07-31T22:28:29.672+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:28:32.062+0530 INFO inserted customer: Deepika
+2023-07-31T22:28:32.062+0530 INFO customer details: Customer [id=40, customer_name=Deepika, customer_phone=7373328423, customer_email=Deepika@gmail.com]
+2023-07-31T22:28:52.877+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:28:52.885+0530 INFO inserted customer: Deepika
+2023-07-31T22:28:52.885+0530 INFO customer details: Customer [id=41, customer_name=Deepika, customer_phone=7373328423, customer_email=Deepika@gmail.com]
+2023-07-31T22:29:12.654+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:29:12.660+0530 INFO inserted customer: Deepika
+2023-07-31T22:29:12.660+0530 INFO customer details: Customer [id=42, customer_name=Deepika, customer_phone=7373328423, customer_email=Deepika@gmail.com]
+2023-07-31T22:29:52.777+0530 INFO This customer phone number is:7373328423
+2023-07-31T22:29:52.777+0530 INFO Customer phone number from DB is:82242
+2023-07-31T22:29:52.777+0530 INFO Customer phone number from DB is:975093
+2023-07-31T22:29:52.778+0530 INFO Customer phone number from DB is:121212
+2023-07-31T22:29:52.778+0530 INFO Customer phone number from DB is:757575
+2023-07-31T22:29:52.778+0530 INFO Customer phone number from DB is:8675858583
+2023-07-31T22:29:52.778+0530 INFO Customer phone number from DB is:999999
+2023-07-31T22:29:52.778+0530 INFO Customer phone number from DB is:999999
+2023-07-31T22:47:11.648+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:47:13.372+0530 INFO inserted customer: Krithika
+2023-07-31T22:47:13.372+0530 INFO customer details: Customer [id=43, customer_name=Krithika, customer_phone=8973878057, customer_email=Krithika@gmail.com]
+2023-07-31T22:47:33.539+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:47:33.547+0530 INFO inserted customer: Krithika
+2023-07-31T22:47:33.548+0530 INFO customer details: Customer [id=44, customer_name=Krithika, customer_phone=8973878057, customer_email=Krithika@gmail.com]
+2023-07-31T22:47:53.235+0530 INFO .......Adding the customer.......
+
+2023-07-31T22:47:53.238+0530 INFO inserted customer: Krithika
+2023-07-31T22:47:53.239+0530 INFO customer details: Customer [id=45, customer_name=Krithika, customer_phone=8973878057, customer_email=Krithika@gmail.com]
+2023-07-31T22:48:26.037+0530 INFO .......Updating the New number in Customer table.......
+
+2023-07-31T22:48:26.042+0530 INFO Status updated in table:6969696969
+2023-07-31T22:48:26.299+0530 INFO This customer phone number is:6969696969
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:82242
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:975093
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:121212
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:757575
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:8675858583
+2023-07-31T22:48:26.299+0530 INFO Customer phone number from DB is:999999
+2023-07-31T22:48:26.301+0530 INFO Customer phone number from DB is:999999
+2023-07-31T22:48:26.301+0530 INFO Customer phone number from DB is:7373328423

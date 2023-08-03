@@ -1,0 +1,411 @@
+/* Override Defaults */
+html,body {
+	border: 0;
+	/* margin: 4.5px;
+	_margin: 9px; */
+	padding: 0;
+}
+
+body {
+	/* text-align: center; */
+	background: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%
+}
+
+#wrapper
+{
+min-width: 990px;
+width: expression(( document . body . clientWidth) <= 990 ? '990px':'100%' );
+
+}
+
+
+/* DIV Styles Applied For Screen Layout */
+div.outer_panel {
+	background-color: #000000;
+	min-width: 990px;
+	width: expression(( document . body . clientWidth) <= 990 ? '990px':'100%' );
+	/*min-height: 650px;
+	height: auto !important; /*hack for IE */
+	/*height: 650px;*/
+	padding: 9px;
+	border: 1px solid red;
+
+}
+
+
+
+/* DIV Styles Applied For Screen Layout */
+#main_background {
+	background-image: url(brushedmetal.gif);
+	background-repeat: repeat;
+	width: 100%;
+	
+}
+
+#top_section {
+	background-image: url(../images/common/piping_title_top.gif);
+	background-repeat: repeat-x;
+	height: 58px;
+}
+
+#branding {
+	background-image: url(../images/common/logo.gif);
+	height: 58px;
+	width: 151px;
+	float: left;
+	}
+
+#top_right_corner {
+	background-image: url(../images/common/piping_elbow_top_right.gif);
+	float: right;
+	height: 58px;
+	width: 14px;
+	background-repeat: no-repeat;
+}
+
+#welcome {
+	float: right;
+	padding-top: 20px;
+	padding-right: 6px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.appline1 {
+	font-weight: bold;
+	font-size: 12px;
+	color: #424242;
+}
+
+#welcome .appline2 {
+	font-weight: normal;
+	font-size: 10px;
+}
+
+#center_section {
+	min-height: 650px;
+	height: auto !important; /*hack for IE */
+	height: 650px;
+	position: relative;
+	padding-top:10px;
+	margin-top:-10px;
+	
+}
+
+#horizontal_bar {
+	background: url(../images/common/brandingbar.gif) top left repeat-x;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+
+.titlebar {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*position: relative;*/
+	background: url(../images/common/piping_brandingbar.gif) top left no-repeat;
+	white-space: nowrap;
+	text-align: left;
+	height: 20px;
+}
+.titlebar a, titlebar a:visited
+{
+color: white;
+text-decoration: none;
+}
+.titlebar a:hover
+{
+color: white;
+text-decoration: underline;
+}
+.barLeftSide
+{
+float: left;
+margin-left: 40px;
+_margin-left: 19px; /* for IE only */
+line-height: 20px;
+font-size: 10px;
+color: #fff;
+font-weight: bold;
+}
+.barRightSide
+{
+float: right;
+margin-right: 20px;
+_margin-right: 10px; /* for IE only) */
+line-height: 20px;
+color: #fff;
+font-size: 10px;
+}
+#left_border {
+	background-image: url(../images/common/piping_left.gif);
+	float: left;
+	height: 100%;
+	width: 10px;
+	background-repeat: repeat-y;
+}
+
+#right_border {
+	background-image: url(../images/common/piping_right.gif);
+	float: right;
+	height: 100%;
+	width: 10px;
+	background-repeat: repeat-y;
+}
+
+#body_section {
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	margin-left: 1%;
+	margin-right: 2%;
+	width: 95%;
+}
+
+#body_section .content p {
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+}
+
+#tree_nav {
+	width: 23%;
+	float: left;
+	overflow: auto;
+}
+
+#work_area {
+	width: 75%;
+	float: right;
+	overflow: auto;
+}
+
+/* Sliding Doors / TABS */
+#nav_tabs {
+	float: left;
+	width: 100%;
+	font-size: 75%;
+	line-height: normal;
+	/*background: url(../images/common/bg.gif) repeat-x bottom;*/
+}
+
+#nav_tabs ul {
+	margin: 0;
+	padding: 10px 10px 0;
+	list-style: none;
+}
+
+#nav_tabs li {
+	float: left;
+	background: url("../images/common/norm_left.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 9px;
+}
+
+#nav_tabs a {
+	display: block;
+	background: url("../images/common/norm_right.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #765;
+}
+
+#nav_tabs a:hover {
+	color: #333;
+}
+
+#nav_tabs .current {
+	background-image: url(../images/common/norm_left_on.gif);
+}
+
+#nav_tabs .current a {
+	background-image: url(../images/common/norm_right_on.gif);
+	color: #333;
+	padding-bottom: 5px;
+}
+
+#bottom_section {
+	background-image: url(../images/common/piping_title_bottom.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+}
+
+#bottom_left_corner {
+	overflow: hidden;
+	background-image: url(../images/common/piping_elbow_bottom_left.gif);
+	float: left;
+	height: 14px;
+	width: 14px;
+	background-repeat: no-repeat;
+}
+
+#bottom_right_corner {
+	overflow: hidden;
+	background-image: url(../images/common/piping_elbow_bottom_right.gif);
+	float: right;
+	height: 14px;
+	width: 14px;
+	background-repeat: no-repeat;
+}
+
+/* End screen layout styles */ /* Styles for Tomahawk Tabbed Pane */
+.active_tab {
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	border-left-color: #000000;
+	border-right-color: #888888;
+	border-top-color: #000000;
+	background-color: #000000;
+}
+
+.inactive_tab {
+	border: none;
+}
+
+.inactive_tab input {
+	background-image: url(../images/common/main_metal_tile.jpg);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+.active_tab input {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+/* FONT EFFECT STYLES */
+.small {
+	font-size: .8em;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+span.tooltip {
+	position: relative;
+}
+
+span.link a span {
+	display: none;
+
+}
+
+span.link a:hover {
+	font-size: 99%;
+}
+
+
+span.link a:hover span {
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -10px;
+	width: 150px;
+	padding: 5px;
+	z-index: 100;
+	background: #FEF2C8;
+	text-align: left;
+	border: 1px solid #000;
+	}
+
+	
+	#login_wrapper
+{
+	background-image: url(../images/common/brushedmetal.gif);
+	padding-top:80px; 
+	width:450px; position:absolute; 
+	left:50%; 
+	margin-left:-225px; 
+	padding-bottom: 80px; 
+	text-align: center; 
+	background:#000000;
+}
+
+#login_background {
+	background-image: url(../images/common/brushedmetal.gif);
+	background-repeat: repeat;
+}
+
+#login_center_section {
+	min-height: 250px;
+	height: auto !important; /*hack for IE */
+	height: 250px;
+	position: relative;
+	
+}
+
+#login_left_border {
+	background-image: url(../images/common/piping_left.gif);
+	float: left;
+	height: 250px;
+	width: 10px;
+	background-repeat: repeat-y;
+}
+
+#login_right_border {
+	background-image: url(../images/common/piping_right.gif);
+	float: right;
+	height: 250px;
+	width: 10px;
+	background-repeat: repeat-y;
+}
+
+#login_fields {
+	position: absolute;
+	left: 75px;
+	top: 60px; 
+}
+
+.login_column {
+	width: 120px;
+}
+
+.login_label {
+	font-family: verdana;
+	color:#000000;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#login_submit {
+	position: absolute; 
+	bottom:50px; 
+	right:110px
+}
+
+#copyright {
+	background: #000000;
+}
+
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#999999;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000
+}
+
+input.button {
+	font-family: Verdana; font-size: 12px; font-weight: bold; background-color: 333333; height: 23px; color: #FFFFFF
+}
+tr.spaceTop > td
+{
+  padding-top: 1em;
+}
+tr.rowSpace > td
+{
+  padding-top: 0.3em;
+}

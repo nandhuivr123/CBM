@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="AllPhraseFiles" version="1.0">
+    <phrase version="1.0">
+        <displayname>Welcome_01</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Welcome_01.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>CallCenterSpecialist</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>CallCenterSpecialist.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>CallMaybeRecorded</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>CallMaybeRecorded.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>BusyMessage</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>BusyMessage.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ToGetCallBack</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ToGetCallBack.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>CallYouDuringWH</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>CallYouDuringWH.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>HaveGoodDay</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>HaveGoodDay.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>CollectPhoneNo</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>CollectPhoneNo.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>NumberEnteredIs</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>NumberEnteredIs.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ToConfirmOrReenter</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ToConfirmorReenter.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>SorryExceededTries</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>SorryExceededTries.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Noinput_PP</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>NoInput_PP.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>NoMatch</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>NoMatch.wav</audiofile>
+    </phrase>
+</phraseset>

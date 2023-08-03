@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DbOp version="1.0">
+    <Datasource name="Tungsten_CallBack"/>
+    <DbObject name="dbo.Customers" returntype="-1" selectall="false" type="table">
+        <DbObjectParam datatype="2" field="value" function="" name="customer_phone" sqltype="" tablename="Customers" type="" typename="NUMERIC" variable="CollectPhoneNo"/>
+    </DbObject>
+    <Operation name="Query">
+        <Qualifier name="distinct" value="false"/>
+    </Operation>
+    <Clause>
+        <Where/>
+    </Clause>
+    <Clause>
+        <Order/>
+    </Clause>
+    <SQLQuery>SELECT Customers.customer_phone FROM dbo.Customers</SQLQuery>
+</DbOp>
